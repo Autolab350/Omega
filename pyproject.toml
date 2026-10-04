@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omega"
+version = "0.1.0"
+description = "QS desk engine: one Order for every asset class, fail-closed GateChain, ExecutionClient per venue"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+# venue extras arrive with their ExecutionClient; none in phase A
+# alpaca = ["alpaca-py>=0.30"]
+# schwab = ["schwab-py>=1.0"]
+
+[tool.setuptools.packages.find]
+include = ["omega*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

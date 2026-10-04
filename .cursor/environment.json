@@ -1,0 +1,9 @@
+{
+  "name": "Mechanical Algorithmic Trading",
+  "install": "bash /agent/repos/Omega/.cursor/setup.sh",
+  "repositoryDependencies": [
+    "github.com/Autolab350/QSConnect",
+    "github.com/Autolab350/QSResearch",
+    "github.com/Autolab350/QSWorkflow"
+  ]
+}

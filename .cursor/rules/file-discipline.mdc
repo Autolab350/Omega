@@ -1,0 +1,14 @@
+---
+description: File discipline — edit/consolidate, do not spawn Python files
+alwaysApply: true
+---
+
+# File discipline (cloud)
+
+Default: **edit the desk module that already owns the job.** Name the function you change.
+
+Allowed: in-place edit · delete old + add replacement · merge files (delete extras).
+
+Forbidden: new parallel Python files for one-off helpers. Omega stays hands-only — no TA/decision modules.
+
+If you add a file, state the consolidate/delete. Master: `../QSWorkflow/MAP.md`.
